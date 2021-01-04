@@ -1,0 +1,11 @@
+.navi {
+    display: flex
+}
+
+.text1 {
+    text-align: center;
+}
+
+.menu {
+    display: inline
+}
