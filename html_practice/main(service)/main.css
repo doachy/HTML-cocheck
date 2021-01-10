@@ -1,0 +1,136 @@
+:root {
+    --background_color : #1976d2;
+    --background_light : #63a4ff;
+    --text_color : white;
+}
+
+
+body {
+    margin: 0%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background_color);
+    height: 40px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar div {
+    margin: 3%;
+
+}
+
+
+.navbar i {
+    color: var(--text_color);
+    font-size: 20px;
+}
+
+.menu {
+    right: -100%;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    position: fixed;
+    transition: all .35s;
+    background-color: var(--background_color);
+}
+
+.menulist{
+    display: none;
+}
+
+.menu.active{
+    right: 0px;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0;
+    text-align: center;
+}
+.menu li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu li:hover{
+    background-color: var(--background_light);
+    border-radius: 20px;
+}
+.menu a{
+    color: var(--text_color);
+    list-style: none;
+    text-decoration: none;
+}
+.logo {
+    font-size: 40px;
+    color: var(--text_color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu2 {
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    position: fixed;
+    transition: all .35s;
+    background-color: var(--background_color);
+}
+
+.menu2.active{
+    left: 0px;
+}
+
+.menu2 ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0;
+    text-align: center;
+}
+.menu2 li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu2 li:hover{
+    background-color: var(--background_light);
+    border-radius: 20px;
+}
+.menu2 a{
+    color: var(--text_color);
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar {
+    width: 300px;
+    height: 100%;
+    background: #1976d2;
+    position: fixed;
+    top: 100px;
+    left: -300px;
+    z-index: 1;
+    transition: all .35s;
+
+}
+
+input:checked + div{
+    left: 0px;
+}
+
+.content{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.content div{
+    margin-bottom: 30px;
+}
