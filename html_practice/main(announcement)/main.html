@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>CoCheck</title>
     <link rel="stylesheet" href="main.css">
     <script src="main.js" defer></script>
     <script src="https://kit.fontawesome.com/7fae19db2d.js" crossorigin="anonymous"></script>
@@ -46,12 +46,18 @@
                 <li><a href="../main(share)/main.html">공유</a></li>
             </ul>
         </nav>
+    <div id="container">
+        <h1>공지 사항 등록</h1>
+        <form action="">
+            <input type="text" id="userName" placeholder="공지 사항" required autocomplete="off">
+            <button onclick="newRegister();return false;">등록</button>
+        </form>
+        <hr>
+        <div id="nameList"></div>
+    </div>
 
-    <div class="announcement">
-        <h1>announcement</h1>
-        <span>not yet</span>
-    </div>    
-
+<script src="main.js"></script>
+        
 </body>
 
 </html>

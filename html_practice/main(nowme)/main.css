@@ -153,9 +153,9 @@ input:checked + div{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
-    width: 100px;
-    border-radius: 100px;
+    height: 180px;
+    width: 180px;
+    border-radius: 180px;
 
 }
 
@@ -163,6 +163,8 @@ input:checked + div{
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 25px;
+
 }
 
 .condition_logo1 {
@@ -175,16 +177,17 @@ input:checked + div{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
-    width: 100px;
-    border-radius: 100px;
-
+    height: 180px;
+    width: 180px;
+    border-radius: 180px;
 }
 
 .condition_logo2 a{
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 25px;
+
 }
 
 .condition_logo2 {
@@ -197,9 +200,9 @@ input:checked + div{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
-    width: 100px;
-    border-radius: 100px;
+    height: 180px;
+    width: 180px;
+    border-radius: 180px;
 
 }
 
@@ -207,6 +210,8 @@ input:checked + div{
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 25px;
+
 }
 
 .condition_logo3 {
@@ -219,16 +224,16 @@ input:checked + div{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
-    width: 100px;
-    border-radius: 100px;
-
+    height: 180px;
+    width: 180px;
+    border-radius: 180px;
 }
 
 .condition_logo4 a{
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 25px;
 }
 
 .condition_logo4 {
